@@ -1,0 +1,497 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   background-color: #F8EFE5; 
+   font-family: 'Montserrat', sans-serif;
+   color: #6c553d;
+   line-height: 1.6;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+   flex: 1;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem  ;
+    background-color: #F8EFE5;
+    padding: 1rem 2rem
+}
+
+.site-header h1 {
+    flex: 1;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #b39a7d;
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+#weather {
+    flex: 1;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #5d768b;
+}
+
+.topnav {
+    background-color: #5d768b ;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 0.75rem 0;
+    font-family: sans-serif;
+}
+
+.topnav a {
+    color: #F8EFE5;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid transparent;
+    background: none;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Playfair Display', serif;
+}
+
+hr{
+    color: #c8b39b;
+
+}
+
+h1{
+    color: #b39a7d;
+}
+
+.subtitle {
+    color: #b39a7d;
+    text-align: center;
+}
+
+.intro-homepage {
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.homepage-image1{
+    width: 100%;
+   overflow: hidden;
+   margin: 0 auto;
+}
+
+.homepage-image1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.unforgettable-luxurious{
+    display: flex;
+    justify-content: center;
+    gap: 5rem ;
+    margin: 3rem auto;
+    max-width: 1100px;
+    padding: 0 2rem;
+}
+
+
+.left-side, .right-side{
+    flex: 1;
+    min-width: 280px;
+}
+
+.unforgettable-luxurious ul{
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+.homepage-video{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+
+.homepage-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.homepage-testimonials{
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border: 1px solid #6c553d;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.accommodations-image1{
+    width: 100%;
+   overflow: hidden;
+   margin: 0 auto;
+   height: 300px;
+}
+
+.accommodations-image1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.accommodations-intro {
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.rooms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem  ;
+    align-items: flex-start;
+    margin: 3rem auto;
+    max-width: 1100px;
+    padding: 1rem 2rem;
+}
+
+.room-image{
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.room-image, .room-video{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+.room-image video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+}
+
+.room-information{
+    flex: 1;
+    min-width: 280px;
+}
+
+.room-information ul{
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.room-information h3{
+    margin-bottom: 0.5rem;
+}
+
+.room-information p{
+    margin-bottom: 0.5rem;
+}
+
+.dining-image1{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.dining-image1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.dining-intro{
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dining-options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem auto;
+    max-width: 1100px;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.dining-information{
+    flex: 1;
+    min-width: 280px;
+}
+
+.dining-information ul{
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.dining-information h3{
+    margin-bottom: 0.5rem;
+}
+
+.dining-information p{
+    margin-bottom: 0.5rem;
+}
+
+.dining-image{
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.dining-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+.spa-image1{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.spa.image1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.spa-intro{
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.spa-image2{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.spa-image2 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.spa-options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem auto;
+    max-width: 1100px;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.spa-information{
+    flex: 1;
+    min-width: 280px;
+}
+
+.spa-information ul{
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.spa-information h3{
+    margin-bottom: 0.5rem;
+}
+
+.spa-information p{
+    margin-bottom: 0.5rem;
+}
+
+.spa-image{
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.spa-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+.spa-image video{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 6px;
+}
+
+.spa-outro{
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.spa-outro ul{
+    list-style-type: none;
+}
+
+.activities-intro{
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.activities-video1{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px; 
+}
+
+.activities-video1 video{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.activities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin: 3rem auto;
+    max-width: 1100px;
+    padding: 1rem 2rem;
+}
+
+.onsite-activities, .local-excursions {
+    flex: 1;
+    min-width: 300px;
+}
+
+.onsite-activities ul, .local-excursions ul{
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.activities-video2{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px; 
+}
+
+.activities-video2 video{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.activities-booking{
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.activities-booking ul{
+    list-style-type: none;
+}
+
+.testimonials-intro{
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonials-image1{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.testimonials-image1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.testimonials-list{
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.testimonials-list ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.testimonials-list li{
+    margin-bottom: 2rem;
+    font-style: italic;
+    line-height: 1.7;
+}
+.testimonials-outro{
+    text-align: center;
+}
